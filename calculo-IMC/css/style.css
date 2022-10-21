@@ -1,5 +1,40 @@
-body{
+body {
     margin: 0;
     padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #E4E7ED;
 }
 
+h1 {
+    color: #005060;
+}
+
+header {
+ margin: 35px;
+}
+
+header p {
+    color: #489FB5;
+    font-size: 23px;
+    text-align: justify;
+    margin-right: 500px;
+}
+
+.calculo {
+    display: flex;
+    background-color: #D9D9D9;
+    margin:  0px 100px 0px 100px;
+    height: 500px;
+
+}
+
+#action-calc {
+    display: flex;
+    flex-direction: column;
+    background-color: #489FB5;
+    margin: 0px 50px 0px 0px;
+}
+
+#peso {
+    margin-bottom: 16px;
+}

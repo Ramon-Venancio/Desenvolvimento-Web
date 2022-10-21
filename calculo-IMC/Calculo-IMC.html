@@ -19,16 +19,23 @@
         <br>
     </header>
 
-    <div class="claculo">
-        <p>Altura</p>
-        <input type="text" id="altura">
+    <div class="calculo">
 
-        <p>Peso</p>
-        <input type="text" id="peso">
+        <div id="action-calc">
+            <p>Altura</p>
+            <input type="text" id="altura">
 
-        <button type="button" onclick="Calcular();">Calcular</button>
-        <p id="res"></p>
+            <p>Peso</p>
+            <input type="text" id="peso">
 
+            <button type="button" onclick="Calcular();">Calcular</button>
+        </div>
+
+        <div id="res-calc">
+            <p id="res"></p>
+            <p id="imc"></p>
+        </div>
+        
     </div>
 </body>
 </html>
