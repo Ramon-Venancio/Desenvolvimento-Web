@@ -13,18 +13,31 @@
     <main>
         <header>
             <h1>IMC - Indice de Massa Corporal</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, quibusdam temporibus? Temporibus dolor nobis nostrum velit accusantium ab odio non, vero id tempore necessitatibus! Repellendus minima voluptates fuga ad ipsa!
-                Exercitationem corrupti fugiat enim deleniti quam nostrum ipsam. Error, quisquam tempora? Voluptatibus repudiandae ipsa accusamus blanditiis. Optio itaque facere voluptatem numquam? Nemo non explicabo veritatis assumenda et perspiciatis, voluptatum eos!
-            </p>
-            <br>
         </header>
+
+        <section class="sobre-imc">
+            <div class="o-que-e">
+                <h2>O que é?</h2>
+                <p>
+                    IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
+                    A classificação do índice de massa corporal (IMC) pode ajudar a identificar problemas de obesidade ou desnutrição, em crianças, adolescentes, adultos e idosos.
+                </p>
+            </div>
+
+            <div class="como-calcular">
+                <h2>Como calcular?</h2>
+                <p>
+                    O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
+                </p>
+            </div>
+        </section>
+
         <section class="calculo">
 
             <div id="action-calc">
-                <p class="element">Altura</p>
+                <p class="element">Altura (metros)</p>
                 <input class="element" type="text" id="altura">
-                <p class="element">Peso</p>
+                <p class="element">Peso (Kg)</p>
                 <input class="element" type="text" id="peso">
                 <button class="element" type="button" onclick="Calcular();">Calcular</button>
             </div>
