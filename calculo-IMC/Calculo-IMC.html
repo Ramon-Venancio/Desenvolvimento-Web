@@ -16,7 +16,7 @@
         </header>
 
         <section class="sobre-imc">
-            <div class="o-que-e">
+            <div id="o-que-e">
                 <h2>O que é?</h2>
                 <p>
                     IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
@@ -24,27 +24,32 @@
                 </p>
             </div>
 
-            <div class="como-calcular">
-                <h2>Como calcular?</h2>
+            <div id="como-diminuir">
+                <h2>Como diminuir?</h2>
                 <p>
-                    O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
+                    Para emagrecer é preciso ter um déficit calórico, ou seja, ingerir menos calorias do que se gasta. "O ideal é planejar a dieta com um déficit de 500 calorias em relação à taxa metabólica basal do paciente, que varia de acordo com cada pessoa e as atividades que ela realiza", explica a nutricionista Débora Regina Palos.
                 </p>
             </div>
         </section>
 
+        <h2>Calcular IMC</h2>
         <section class="calculo">
-
-            <div id="action-calc">
+            <div class="action-calc">
                 <p class="element">Altura (metros)</p>
                 <input class="element" type="text" id="altura">
                 <p class="element">Peso (Kg)</p>
                 <input class="element" type="text" id="peso">
-                <button class="element" type="button" onclick="Calcular();">Calcular</button>
+                <button class="element" id="butao" type="button" onclick="Calcular();">Calcular</button>
             </div>
 
-            <div id="res-calc">
-                <p id="res"></p>
-                <p id="imc"></p>
+            <div class="res-calc">
+                <div>
+                    <img id="image" src="" alt="">
+                </div>
+                <div>
+                    <p id="res">Aqui será mostrado seu IMC</p>
+                    <p id="imc"></p>
+                </div>
             </div>
         
         </section>

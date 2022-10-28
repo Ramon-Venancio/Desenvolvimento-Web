@@ -2,17 +2,18 @@ body {
     margin: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #E4E7ED;
+    background-color: #d7e3fc;
 }
 
 h1 {
-    color: #005060;
+    color: #1f487e;
     margin: 0px 100px;
+    font-size: 35.5px;
 }
 
 .sobre-imc {
-    margin: 50px auto;
-    color: #489FB5;
+    margin: 30px 120px;
+    color: #376996;
     font-size: 25px;
     text-align: justify;
     display: flex;
@@ -24,24 +25,30 @@ h1 {
     width: 450px;
 }
 
+.sobre-imc ~ h2 {
+    color: #1f487e;
+    margin: 0 auto;
+    width: 250px;
+}
+
 .calculo {
     display: flex;
-    background-color: #D9D9D9;
-    margin:  0px 100px 0px 100px;
+    background-color: #ebf2fa;
+    margin:  0px 100px 20px 100px;
     height: 350px;
 }
 
-.calculo , #action-calc {
+.calculo , .action-calc {
     border-radius: 20px;
 }
 
 
-#action-calc {
+.action-calc {
     display: flex;
     flex-direction: column;
-    background-color: #489FB5;
+    background-color: #0077b6;
     margin: 0px 50px 0px 0px;
-    width: 860px;
+    width: 550px;
 }
 
 .element {
@@ -49,10 +56,44 @@ h1 {
     margin: 10px 10px 10px 50px;
 }
 
-#action-calc button{
-    width: 150px;
+.action-calc button{
+    width: 100px;
+    height: 25px;
+    border: 0;
+    border-radius: 2px;
+}
+
+#butao:hover {
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
+.action-calc p {
+    font-size: 20.5px;
+}
+
+#peso, #altura {
+    margin: 0px 10px 10px 50px;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    height: 25px;
+    width: 160px;
 }
 
 #peso {
     margin-bottom: 16px;
+}
+
+.res-calc {
+    display: flex;
+    color: #1f487e;
+    font-size: 2em;
+}
+
+.res-calc img {
+    margin-right: 50px;
+    margin-left: 0px;
+    height: 350px;
 }
