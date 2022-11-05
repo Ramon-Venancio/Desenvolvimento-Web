@@ -1,0 +1,26 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #010037;
+}
+
+.nav-main {
+    background-color: #00509D;
+}
+
+.nav-main, #img-h1, #button {
+    display: flex;
+}
+
+.nav-main img {
+    height: 112px;
+    width: 112px;
+}
+
+.nav-main h1{
+    width: 80px;
+    height: 80px;
+}
