@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 html {
     margin: 0;
     padding: 0;
@@ -5,22 +7,93 @@ html {
 
 body {
     background-color: #010037;
+    font-family: 'Nunito';
+}
+
+
+header #image-fundo {
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    z-index: -1;
+    top: 0;
 }
 
 .nav-main {
-    background-color: #00509D;
+    z-index: 100;
 }
 
-.nav-main, #img-h1, #button {
+.nav-main, #img-h1, #opcoes {
     display: flex;
+    justify-content: space-between;
+}
+
+#img-h1, #opcoes {
+    margin-top: 11px;
 }
 
 .nav-main img {
-    height: 112px;
-    width: 112px;
+    height: 85px;
+    width: 85px;
+    margin: 0px 58px 0px 133px;
 }
 
 .nav-main h1{
-    width: 80px;
-    height: 80px;
+    font-size: 45pt;
+    margin: 0;
+}
+
+#inicio {
+    color: #000814;
+    text-decoration: none;
+}
+
+.link-opcoes{
+    text-decoration: none;
+    color: white;
+}
+
+#opcoes button {
+    background: transparent;
+    border: none;
+    padding: none;
+    font-size: 12.8pt;
+}
+
+#butao-aquario {
+    margin: 28px 137px 20px 66px ;
+    padding: 0;
+    width: 85px;
+    height: 35px;
+}
+
+#butao-aquario:hover {
+    background-color: #F5BF00;
+    border-radius: 40px;
+    transition-duration: 0.4s;
+}
+
+#butao-peixes {
+    margin-top: 28px;
+    padding: 0;
+    width: 85px;
+    height: 35px;
+    
+}
+
+#butao-peixes:hover {
+    background-color: #F5BF00;
+    border-radius: 40px;
+    transition-duration: 0.4s;
+}
+
+header p {
+    color: white;
+    font-size: 50pt;
+    width: 670px;
+}
+
+.introdução-index {
+    margin: 45px 69px 0px 133px;
+    display: flex;
 }
