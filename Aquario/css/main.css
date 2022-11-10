@@ -12,14 +12,14 @@ body {
 
 header {
     width: 100vw;
-    height: 110vh;
+    height: 100vh;
 }
 
 header #image-fundo {
     top: 0;
     position: absolute;
     width: 100vw;
-    height: 110vh;
+    height: 100vh;
     -webkit-mask-image: linear-gradient(225deg, transparent -20%,  #0075FF);
     mask-image: linear-gradient(225deg, transparent 0%,  #0075FF);
 }
@@ -94,7 +94,7 @@ header #image-fundo {
 
 .introdução-index {
     position: relative;
-    margin: 45px 69px 0px 133px;
+    margin: 69px 400px;
     display: flex;
 }
 
@@ -104,4 +104,44 @@ header #image-fundo {
     margin: 0;
     text-align: justify;
     padding: 10% 5% 0px 0px;
+    width: 800px;
+}
+
+
+.retangulo-perg {
+    background: rgb(0,117,255);
+    background: linear-gradient(330deg, rgba(0,117,255,1) 0%, rgba(0,67,167,1) 100%);
+    border-radius: 33px;
+    display: flex;
+    flex-direction: column;
+    width: 1170px;
+    height: 634px;
+    margin: 0 auto;
+    margin-top: 192px;
+}
+
+.retangulo-perg div {
+    display: flex;
+}
+
+.retangulo-perg h2 {
+    color: #F5BF00;
+    font-size: 50pt;
+}
+
+.retangulo-perg p {
+    text-align: justify;
+    color: white;
+    font-size: 22pt;
+    width: 800px;
+}
+
+.retangulo-perg h2,p {
+    margin-left: 70px;
+}
+
+.retangulo-perg img {
+    margin-top: 55.333px;
+    width: 174px;
+    height: 116px;
 }
