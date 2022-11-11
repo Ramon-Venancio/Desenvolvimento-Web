@@ -107,42 +107,17 @@ header #image-fundo {
     width: 800px;
 }
 
-
-.retangulo-perg {
-    background: rgb(0,117,255);
-    background: linear-gradient(330deg, rgba(0,117,255,1) 0%, rgba(0,67,167,1) 100%);
-    border-radius: 33px;
-    display: flex;
-    flex-direction: column;
-    width: 1170px;
-    height: 634px;
-    margin: 0 auto;
-    margin-top: 192px;
-}
-
-.retangulo-perg div {
-    display: flex;
-}
-
-.retangulo-perg h2 {
-    color: #F5BF00;
-    font-size: 40pt;
-}
-
-.retangulo-perg p {
-    text-align: justify;
+.introdução-index p {
     color: white;
-    font-size: 20pt;
-    width: 800px;
-    margin-top: 75px;
+    font-size: 15.8pt;
 }
 
-.retangulo-perg h2,p {
-    margin-left: 70px;
+
+.conteudo-main {
+    margin-left: 133px;
 }
 
-.retangulo-perg img {
-    margin-top: 55.333px;
-    width: 168px;
-    height: 110px;
+.main-container h2 {
+    color: #F5BF00;
+    font-size: 35pt;
 }
