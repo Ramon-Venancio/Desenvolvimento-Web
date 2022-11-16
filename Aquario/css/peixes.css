@@ -9,16 +9,14 @@ body {
     background-color: #010037;
     font-family: 'Nunito';
 }
-
-header {
-    width: 100vw;
+.header-container {
     height: 100vh;
 }
 
-header #image-fundo {
+.header-container #image-fundo {
     top: 0;
     position: absolute;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     -webkit-mask-image: linear-gradient(225deg, transparent -20%,  #0075FF);
     mask-image: linear-gradient(225deg, transparent 0%,  #0075FF);
@@ -94,22 +92,26 @@ header #image-fundo {
 
 .introdução-index {
     position: relative;
-    margin: 69px 400px;
+    justify-content: center;
     display: flex;
+    margin-top: 5%;
+}
+
+.introdução-index img {
+    width: 400px;
+    height: 400px;
 }
 
 .introdução-index h2 {
     color: white;
     font-size: 38.8pt;
-    margin: 0;
     text-align: justify;
-    padding: 10% 5% 0px 0px;
-    width: 800px;
 }
 
 .introdução-index p {
     color: white;
     font-size: 15.8pt;
+    width: 560px;
 }
 
 
@@ -144,7 +146,7 @@ header #image-fundo {
 .aguadoce-container p {
     color: white;
     font-size: 20pt;
-    margin: 0;
+    width: 970px;
 }
 #h3-aguadoce {
     display: flex;
@@ -156,66 +158,78 @@ header #image-fundo {
 }
 
 .peixes-aguadoce {
-    display: grid;
-    grid-template-areas: 
-    "titulo titulo"
-    "neon molonesia"
-    "plati moon";
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.peixes-aguadoce div {
+.peixes-aguadoce h3 {
+    margin-top: 25px;
+}
+
+.blocos-peixes {
+    display: flex;
+}
+
+.blocos-peixes div {
     background-color: #D7E9FF;
     width: 567px;
     height: 503px;
     border-radius: 10px;
     border: solid black 1px;
+    margin: 5px;
 }
 
-.peixes-aguadoce img {
+.blocos-peixes img {
     width: 567px;
     height: 378px;
     border-radius: 7px;
 }
 
-.peixes-aguadoce p {
-    margin: 0 auto;
+.blocos-peixes p {
     font-size: 28.8pt;
-    grid-area: titulo;
     width: 100%;
-}
-
-.peixes-aguadoce #tetra-neon {
-    grid-area: neon;
-}
-
-.peixes-aguadoce #molonesia {
-    grid-area: molonesia;
-}
-
-.peixes-aguadoce #plati {
-    grid-area: plati;
-}
-
-.peixes-aguadoce #halfmoon {
-    grid-area: moon;
+    text-align: center;
 }
 
 .peixes-aguadoce #p-neon {
     color: #17676C;
-    grid-area: neon;
 }
 
 .peixes-aguadoce #p-molonesia {
     color: #26283F;
-    grid-area: molonesia;
 }
 
 .peixes-aguadoce #p-plati {
     color: #E33B14;
-    grid-area: plati;
 }
 
 .peixes-aguadoce #p-moon {
     color: #0367A6;
-    grid-area: moon;
+}
+
+.peixes-ag:hover {
+    transition: 0.5s;
+    transform: scale(1.03);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    cursor: pointer;
+}
+
+
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: #D7E9FF;
+    box-shadow: 0 0 0 10px black;
+
 }
