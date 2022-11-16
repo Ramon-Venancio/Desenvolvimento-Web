@@ -117,7 +117,105 @@ header #image-fundo {
     margin-left: 133px;
 }
 
-.main-container h2 {
+.conteudo-main h2 {
     color: #F5BF00;
     font-size: 35pt;
+}
+
+#imagem-prim {
+    width: 1174px;
+    height: 879px;
+}
+
+.imagem-sec {
+    width: 970px;
+}
+
+.conteudo-main h3 {
+    font-size: 23pt;
+    color: #F5BF00;
+    margin: 0;
+}
+
+.aguadoce-container {
+    margin-top: 144px;
+}
+
+.aguadoce-container p {
+    color: white;
+    font-size: 20pt;
+    margin: 0;
+}
+#h3-aguadoce {
+    display: flex;
+}
+
+#h3-aguadoce img {
+    width: 109px;
+    height: 109px;
+}
+
+.peixes-aguadoce {
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo"
+    "neon molonesia"
+    "plati moon";
+}
+
+.peixes-aguadoce div {
+    background-color: #D7E9FF;
+    width: 567px;
+    height: 503px;
+    border-radius: 10px;
+    border: solid black 1px;
+}
+
+.peixes-aguadoce img {
+    width: 567px;
+    height: 378px;
+    border-radius: 7px;
+}
+
+.peixes-aguadoce p {
+    margin: 0 auto;
+    font-size: 28.8pt;
+    grid-area: titulo;
+    width: 100%;
+}
+
+.peixes-aguadoce #tetra-neon {
+    grid-area: neon;
+}
+
+.peixes-aguadoce #molonesia {
+    grid-area: molonesia;
+}
+
+.peixes-aguadoce #plati {
+    grid-area: plati;
+}
+
+.peixes-aguadoce #halfmoon {
+    grid-area: moon;
+}
+
+.peixes-aguadoce #p-neon {
+    color: #17676C;
+    grid-area: neon;
+}
+
+.peixes-aguadoce #p-molonesia {
+    color: #26283F;
+    grid-area: molonesia;
+}
+
+.peixes-aguadoce #p-plati {
+    color: #E33B14;
+    grid-area: plati;
+}
+
+.peixes-aguadoce #p-moon {
+    color: #0367A6;
+    grid-area: moon;
 }
