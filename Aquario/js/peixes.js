@@ -1,18 +1,19 @@
 function inicialModal(modalID) {
-    if (localStorage.fecharModal !== modalID) {
-        const modal = document.getElementById(modalID)
+    const modal = document.querySelector(modalID)
 
-        if (modal) {
-            modal.classList.add("mostrar");
-            modal.addEventListener("click", (e) => {
-                if (e.target.id == modalID || e.target.className == 'fechar') {
-                    modal.classList.remove('mostrar');
-                    localStorage.fechaModal = modalID;
-                }
-            })
-        }
+    if (modal) {
+        modal.classList.add("mostrar");
+        modal.addEventListener("click", (e) => {
+            if (e.target.className == 'modal-container' || e.target.className == 'fechar') {
+                modal.classList.remove('mostrar');
+            }
+        })
     }
 }
 
-const mod = document.querySelector('.peixes-ag');
-mod.addEventListener("click", () => inicialModal("modal"))
+window.onload = ()=> {
+    const peixe = document.querySelector('#tetra-neon');
+    peixe.addEventListener("click", () => inicialModal("#modal-neon"))
+    const peixe2 = document.querySelector('#molenesia')
+    peixe2.addEventListener("click", () => inicialModal("#modal-molonesia"))
+}
