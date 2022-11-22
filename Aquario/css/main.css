@@ -70,12 +70,15 @@ body {
     padding: 0;
     width: 85px;
     height: 35px;
+    background-color: transparent;
+    border-radius: 40px;
+    transition: 0.6s;
 }
 
 #butao-aquario:hover {
     background-color: #F5BF00;
     border-radius: 40px;
-    transition-duration: 0.4s;
+    transition-duration: 1s;
 }
 
 #butao-peixes {
@@ -83,13 +86,15 @@ body {
     padding: 0;
     width: 85px;
     height: 35px;
-    
+    background-color: transparent;
+    border-radius: 40px;
+    transition: 0.6s;
 }
 
 #butao-peixes:hover {
     background-color: #F5BF00;
     border-radius: 40px;
-    transition-duration: 0.4s;
+    transition-duration: 1s;
 }
 
 .introdução-index {
