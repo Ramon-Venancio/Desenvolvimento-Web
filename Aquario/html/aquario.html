@@ -11,6 +11,8 @@
     </head>
 
     <body>
+        <script src="../js/aquario.js"></script>
+
         <header class="header-container">
             <img id="image-fundo" src="../image/Imagens-Tecnicas/Rectangle1.png" alt="fundo-header">
             <nav class="nav-main">
@@ -36,10 +38,10 @@
     <main class="calculador-container">
         <h3>Calculadora para aquarios</h3>
         <div class="aqua-calc">
-            <input class="input" type="number" placeholder="Digite a altura">
-            <input class="input" type="number" placeholder="Digite a largura">
-            <input class="input" type="number" placeholder="Digite o comprimento">
-            <button id="botao-calcular" type="button">Calcular</button>
+            <input class="input" id="altura" type="number" placeholder="Digite a altura">
+            <input class="input" id="largura" type="number" placeholder="Digite a largura">
+            <input class="input" id="comprimento" type="number" placeholder="Digite o comprimento">
+            <button id="botao-calcular" type="button" onclick="Calcular()">Calcular</button>
     
             <div>
                 <img class="img-calc" src="../image/gota.png" alt="icon gota de agua">
