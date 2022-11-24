@@ -152,13 +152,15 @@ body {
 
 .aqua-calc p {
     margin: 0;
-    font-size: 25pt;
+    font-size: 20pt;
+    word-wrap: break-word;
+    max-width: 100px;
 }
 
 .img-calc {
     width: 95px;
     height: 95px;
-    margin: 20px;
+    margin: 15px;
 }
 
 .input {

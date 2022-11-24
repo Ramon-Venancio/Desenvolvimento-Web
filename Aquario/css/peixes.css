@@ -156,11 +156,13 @@ body {
 }
 #h3-aguadoce {
     display: flex;
+    align-items: center;
 }
 
 #h3-aguadoce img {
-    width: 109px;
-    height: 109px;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
 }
 
 .peixes-aguadoce {
@@ -298,4 +300,16 @@ body {
 
 #modalp-neon {
     color: #00393e;
+}
+
+#modalp-molinesia {
+    color: #26283F;
+}
+
+#modalp-plati {
+    color: #a21e00;
+}
+
+#modalp-moon {
+    color: #005488;
 }

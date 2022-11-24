@@ -17,6 +17,12 @@ function Calcular() {
         document.getElementById("filtro").innerHTML = bomba+" L/h"
     }
     else {
-        
+        document.getElementById("litros").innerHTML = litros+" L"
+
+        var potenciaw = Math.ceil(aquecedor/50)
+        document.getElementById("aquecedor").innerHTML = (potenciaw*50)+" W"
+
+        var potencial = Math.ceil(bomba/50)
+        document.getElementById("filtro").innerHTML = (potencial*50)+" L/h"
     }
 }
