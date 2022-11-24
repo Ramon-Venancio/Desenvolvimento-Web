@@ -10,4 +10,13 @@ function Calcular() {
     console.log(bomba)
 
     aquecedor = litros
+
+    if ((bomba/50)%2==0 || ((bomba/10)/5)%3==0  && (aquecedor/50)%2==0 || ((aquecedor/10)/5)%3==0) {
+        document.getElementById("litros").innerHTML = litros+" L"
+        document.getElementById("aquecedor").innerHTML = aquecedor+" W"
+        document.getElementById("filtro").innerHTML = bomba+" L/h"
+    }
+    else {
+        
+    }
 }

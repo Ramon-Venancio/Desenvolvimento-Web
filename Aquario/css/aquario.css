@@ -117,8 +117,8 @@ body {
 }
 
 .introdução-index img {
-    width: 372px;
-    height: 372px;
+    width: 370px;
+    height: 370px;
 }
 
 .calculador-container {
@@ -142,13 +142,12 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 40vw;
+    width: 55%;
 }
 
 .aqua-calc div {
     display: flex;
     align-items: center;
-    margin-left: 50px;
 }
 
 .aqua-calc p {
@@ -157,9 +156,9 @@ body {
 }
 
 .img-calc {
-    width: 100px;
-    height: 100px;
-    margin: 30px;
+    width: 95px;
+    height: 95px;
+    margin: 20px;
 }
 
 .input {
